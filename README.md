@@ -19,6 +19,7 @@ We have a many plan for WordPress development. This theme are first development,
 Minimal Basis WordPress Theme:
 
 Author: Yuuichi "Webman" Ashikawa and Webmans JP Self Employed
+
 License: GPL v2 and later
 
 Thanks for all!
