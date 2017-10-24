@@ -1,0 +1,32 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+
+# This setting for WordPress Theme Development.
+# Check it out!: WordPress Coding Standards
+# https://codex.wordpress.org/WordPress_Coding_Standards
+
+root = true
+
+# First, for all file types.
+[*]
+
+# Maybe you too.
+charset = utf-8
+
+# WordPress Coding Standards need real ( hard ) tab, and 4 spaces.
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+# This development used Windows 10, avoid the trouble.
+end_of_line = crlf
+
+# Avoid the trouble.
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Some file type are not use "trim_trailing_whitespace". That are keep layout.
+# It may be using "line break" as a space delimiter. It can't be erased.
+[*.php, *.js, *.less, *.md]
+trim_trailing_whitespace = false
