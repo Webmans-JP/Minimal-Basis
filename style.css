@@ -90,18 +90,17 @@ translation-ready
 /*******************************************************************************
 ********************************* 01-00: Basic *********************************
 *******************************************************************************/
-/* Adjust for size unit rem. Modern browser are maybe 10px ( 10px/16px ). */
+/* Adjust for size unit "rem". */
+/* Font size: Modern browser are maybe 10px result ( 16px * 0.625 ). */
 html {
   font-size: 62.5%;
 }
 /* Simple reset for all elements. */
+/* Support for presbyopia ( Yes, I have that. ). */
+/*  Font size: Modern browser are maybe 20px result( 10px * 2rem ). */
 html * {
   box-sizing: border-box;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
-}
-/* Support for presbyopia ( Yes, I have that. ). */
-/* Modern browser are maybe 20px ( 10px * 2rem ). */
-body {
-  font-size: 2rem;
 }
