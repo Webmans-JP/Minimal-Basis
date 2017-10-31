@@ -4,7 +4,79 @@ html {
 
 html * {
 	box-sizing: border-box;
-	font-size: 2rem;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	font-size: 2rem;
+}
+
+#whole-wrapper {
+	background-color: #ff6600;
+	box-shadow: inset 0 0 5px #000;
+	height: 100%;
+	Width: 100%;
+	margin: 0;
+	padding: 1rem;
+}
+
+#whole-wrapper-vessel {
+	background-color: #009900;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	margin: 0;
+	padding: 1rem;
+}
+
+/* Same style for "-Wrapper". */
+#main-header,
+#contents-wrapper,
+#contents-area,
+#main-sidebar,
+#main-footer {
+	box-shadow: inset 0 0 5px #000;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 1rem;
+}
+
+/* Same style for "-Vessel". */
+#main-header-vessel,
+#contents-wrapper-vessel,
+#contents-area-vessel,
+#main-sidebar-vessel,
+#main-footer-vessel {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	margin: 0;
+	padding: 1rem;
+}
+
+/* Same style for "-Wrapper". */
+#main-header,
+#contents-wrapper,
+#contents-area,
+#main-sidebar,
+#main-footer {
+	background-color: #ff6600;
+	box-shadow: inset 0 0 5px #000;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 1rem;
+}
+
+
+/* Same style for "-Vessel". */
+#main-header-vessel,
+#contents-wrapper-vessel,
+#contents-area-vessel,
+#main-sidebar-vessel,
+#main-footer-vessel {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	margin: 0;
+	padding: 1rem;
 }
