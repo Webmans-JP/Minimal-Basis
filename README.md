@@ -16,7 +16,7 @@ We have a many plan for WordPress development. This theme are first development,
 
 ---
 
-## For contributor
+## For contributors
 
 First, now not need contribute. Yes, I allowed and need contribution. However, that's by announce on near future. It's a after the all file setup and writing. Need your suggest by ideas and issues. Wait a times ( Maybe, this section update in future ).
 
