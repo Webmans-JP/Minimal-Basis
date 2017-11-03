@@ -26,12 +26,11 @@ body {
 	align-items: stretch;
 }
 #contents-area {
-	flex-grow: 3;
+	flex: 1 1 auto;
 }
 
 #main-sidebar {
-	flex-grow: 1;
-	flex-basis: 200px;
+	flex: 0 0 300px;
 }
 
 #main-footer {
